@@ -9,6 +9,10 @@
   margin-top: 25vh;
   border: solid $black 5px;
   border-radius: 2px;
+
+  @media #{$mobile-only} {
+    margin-top: 20vh;
+  }
 }
 
 .landing__header {
