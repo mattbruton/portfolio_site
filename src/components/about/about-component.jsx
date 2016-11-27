@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionHeader from './section-header-component.jsx';
+import SectionHeader from '../common/section-header-component.jsx';
 
 export default class About extends React.Component {
   render () {

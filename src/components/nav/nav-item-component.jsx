@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/nav-item-component.scss';
+import '../../styles/nav-item-component.scss';
 
 export default class NavItem extends React.Component{
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionHeader from './section-header-component.jsx';
+import SectionHeader from '../common/section-header-component.jsx';
 
 export default class Contact extends React.Component {
   render () {

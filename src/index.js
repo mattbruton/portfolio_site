@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Navbar from './components/nav-component.jsx';
-import Landing from './components/landing-component.jsx';
-import About from './components/about-component.jsx';
-import Contact from './components/contact-component.jsx';
+import Navbar from './components/nav/nav-component.jsx';
+import Landing from './components/landing/landing-component.jsx';
+import About from './components/about/about-component.jsx';
+import Contact from './components/contact/contact-component.jsx';
 
 import './styles/main.scss';
 
