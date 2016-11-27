@@ -8,7 +8,7 @@ export default class About extends React.Component {
     return(
       <div className="about__container">
         <SectionHeader header="about" />
-        <div className="col-xs-8 offset-xs-2 about__content-container">
+        <div className="col-md-8 offset-md-2 about__content-container">
           <p>When I was little, I fell in love with information. I would spend hours reading about dinosaurs, lizards, rocks (yes, I was that kid), and just about any topic the Audubon Society released books on. Except spiders. I was, and still am terrified of those, even in their printed form. You can only imagine my excitement when my mom caved and allowed me to install AOL on our family computer.</p>
 
           <p>I had all the information I wanted at my fingertips, on my blazing fast 33.6k modem. Eventually, I figured out that I could make my own websites, full of the animal/mineral data I'd found. One day while messing around with Angelfire, I clicked a button that converted my website from their template-based interface to a mess of HTML files. HTML I didn't understand. I forget how long I had to save my allowance in order to buy a book so I could attempt to salvage my work.</p>

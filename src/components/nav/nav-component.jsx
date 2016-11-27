@@ -7,7 +7,7 @@ export default class Navbar extends React.Component {
   render() {
 
     return (
-      <nav className="col-xs-4 offset-xs-8 text-xs-center navbar-fixed-top navbar__container">
+      <nav className="col-md-4 offset-md-8 text-md-center navbar-fixed-top navbar__container">
         <ul className="nav nav-inline">
           <NavItem url="#" text="about"/>
           <NavItem url="#" text="projects"/>
