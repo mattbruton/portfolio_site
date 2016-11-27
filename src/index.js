@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Navbar from './components/nav-component.js';
+import Navbar from './components/nav-component.jsx';
 import Landing from './components/landing-component.jsx';
+import Contact from './components/contact-component.jsx';
 
 import './styles/main.scss';
 
@@ -13,10 +14,9 @@ export default class App extends React.Component {
       <div>
         <Navbar />
         <Landing />
-        <Landing />
         <section id="about" />
         <section id="projects" />
-        <section id="link" />
+        <Contact />
       </div>
     );
   }
