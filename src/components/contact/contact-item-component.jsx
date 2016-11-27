@@ -15,8 +15,14 @@ export default class ContactItem extends React.Component {
     if(this.props.isLink){
       return(
         <div className="contact__item col-xs-8 offset-xs-2 text-xs-left">
-          <span><i className={this.props.className} aria-hidden="true"></i></span>
-          <span className="contact__item__text"><a href={'https://www.' + this.props.text}>{this.props.text}</a></span>
+          <span>
+            <a href={'https://www.' + this.props.text}>
+              <i className={this.props.className} aria-hidden="true"></i>
+            </a>
+          </span>
+          <span className="contact__item__text">
+            <a href={'https://www.' + this.props.text}>{this.props.text}</a>  
+          </span>
         </div>
       );
     } else {

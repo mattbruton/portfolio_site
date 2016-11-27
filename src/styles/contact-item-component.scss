@@ -3,9 +3,14 @@
 .contact__item {
   margin-top: 20px;
   font-size: 2em;
+
   &__text {
     margin-left: 20px;
     font-size: 0.75em;
     color:$black;
+    a {
+      color:$black;
+      text-decoration: none;
+    }
   }
 }
