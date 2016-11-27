@@ -2,7 +2,7 @@
 
 .about__container {
   margin-bottom:20px;
-  height: 85vh;
+  min-height: 85vh;
 }
 
 .about__content-container {
@@ -11,6 +11,14 @@
   margin-bottom: 21.5px;
   border-radius: 3px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+  @media #{$mobile-only} {
+    box-shadow: 0 0 0 0;
+    width: 90%;
+    margin: auto;
+    border: 2px solid $black;
+    margin-top: 4vh;
+  }
 
   p {
     font-weight: $font-light;

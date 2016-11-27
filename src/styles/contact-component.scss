@@ -2,6 +2,10 @@
 
 .contact__container {
   min-height: 80vh;
+
+  @media #{$mobile-only} {
+    min-height: 50vh;
+  }
 }
 
 .contact__content-container {
