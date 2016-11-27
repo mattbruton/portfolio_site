@@ -1,0 +1,13 @@
+@import './variables';
+
+.navbar__link {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: $black;
+
+  &:hover {
+    border-bottom: solid $black 2px;
+    margin-bottom: -2px;
+    color: $black;
+  }
+}

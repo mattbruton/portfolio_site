@@ -1,10 +1,10 @@
-// Set up your application entry point here...
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Navbar from './components/nav-component.js';
 import Landing from './components/landing-component.jsx';
+
+import './styles/main.scss';
 
 export default class App extends React.Component {
 

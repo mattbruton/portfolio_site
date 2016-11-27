@@ -3,9 +3,7 @@ import React from 'react';
 import '../styles/landing-component.scss';
 
 export default class Landing extends React.Component {
-  constructor() {
-    super();
-  }
+  
   render() {
     return (
       <div className='landing__container text-xs-center'>

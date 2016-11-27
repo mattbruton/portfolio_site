@@ -1,13 +1,13 @@
+@import './variables';
+
 .landing__container {
-  background-color: #FEDA09;
   min-height: 100vh;
-  font-family: 'Lato';
-  font-weight: 700;
+  font-weight: $font-strong;
 }
 
 .landing__image {
   margin-top: 25vh;
-  border: solid black 5px;
+  border: solid $black 5px;
   border-radius: 2px;
 }
 
