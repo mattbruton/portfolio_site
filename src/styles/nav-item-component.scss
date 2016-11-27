@@ -5,13 +5,26 @@
   text-decoration: none;
   color: $black;
 
+  @media #{$mobile-only} {
+    color: $yellow;
+    background-color: $yellow;
+  }
+
   &:hover {
     border-bottom: solid $black 2px;
     margin-bottom: -2px;
     color: $black;
+
+    @media #{$mobile-only} {
+      color:$yellow;
+    }
   }
 
   &:visited {
     color: $black;
+    @media #{$mobile-only} {
+      color: $yellow;
+      background-color: $black;
+    }
   }
 }

@@ -1,6 +1,21 @@
+@import './variables';
+
 .navbar__container {
   margin-top: 15px;
   padding: 5px 5px 8px 5px;
   border-radius: 3px;
   max-width: 25%;
+
+  @media #{$mobile-only} {
+    margin-top:0;
+    padding-top: 10px;
+    min-height: 5vh;
+    min-width: 100%;
+    background-color: $black;
+  }
+  ul {
+    @media #{$mobile-only} {
+      background-color: $black;
+    }
+  }
 }
