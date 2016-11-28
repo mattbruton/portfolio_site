@@ -3,28 +3,18 @@
 .navbar__link{
   font-size: 1.1em;
   text-decoration: none;
-  color: $black;
-
-  @media #{$mobile-only} {
-    color: $yellow;
-    background-color: $yellow;
-  }
+  color: $yellow;
+  background-color: $black;
 
   &:hover {
-    border-bottom: solid $black 2px;
+    border-bottom: solid $yellow 2px;
     margin-bottom: -2px;
-    color: $black;
-
-    @media #{$mobile-only} {
-      color:$yellow;
-    }
+    background-color: $black;
+    color:$yellow;
   }
 
   &:visited {
-    color: $black;
-    @media #{$mobile-only} {
-      color: $yellow;
-      background-color: $black;
-    }
+    color: $yellow;
+    background-color: $black;
   }
 }
