@@ -9,6 +9,9 @@
 }
 
 .contact__content-container {
-  margin-top: 7vh;
+  margin-top: 10vh;
   height: 50vh;
+  @media #{$mobile-only} {
+    margin-top: 2vh;
+  }
 }

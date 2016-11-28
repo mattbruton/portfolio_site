@@ -9,7 +9,7 @@ export default class Landing extends React.Component {
       <div className='landing__container text-xs-center'>
         <img className="landing__image" src="http://placekitten.com/200/300"/>
         <h1 className="landing__header">hi, i'm matt.</h1>
-        <h3>i write code.</h3>
+        <h3>( i write code )</h3>
       </div>
     );
   }
