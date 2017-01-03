@@ -1,5 +1,9 @@
 @import './variables';
 
+.project__item__content {
+  margin-top: 7.5vh;
+}
+
 .project__item__title {
   color: $yellow;
   background-color: $black;
@@ -12,7 +16,8 @@
 }
 
 .project__item__icon {
-  font-size: 2.2em;
+  margin-top: 2vh;
+  font-size: 3.2em;
 }
 
 .project__item__desc, .project__item__desc p {

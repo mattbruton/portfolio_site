@@ -1,14 +1,14 @@
 {
     "woofli": {
-      "name": "Test Project",
-      "hosted_project_url": "www.example.com",
-      "project_repo" : "www.example.com",
-      "description" : "stuff goes here."
+      "title": "woof.li",
+      "projectUrl": "https://woof.li",
+      "repoUrl" : "https://github.com/mattbruton/Woofli",
+      "description" : "A web application that aids users in keeping track of their pet's medical needs. The client side of woof.li is a SPA created in AngularJS, while the back end utilizes ASP.NET Identity, ASP.NET Web API 2, and Owin middleware for a token-based approach to authentication. Sparkpost and Twilio are used to notify users and pet sitters of upcoming medical needs."
     },
     "macc": {
-      "name": "Test Project",
-      "hosted_project_url": "www.example.com",
-      "project_repo" : "www.example.com",
-      "description" : "stuff goes here."
+      "title": "MACC Adoption App",
+      "projectUrl": "https://mb-nss-exercises.firebaseapp.com/MACC/",
+      "repoUrl" : "https://github.com/mattbruton/MACC-Adoption-App",
+      "description" : "Initially created to improve the user interface for navigating available adoptable pets at Metro Animal Care and Control. Utilized Firebase for authentication and storing data related users and pets. Retrieved data on available pets with the Petfinder API, although additional filtering had to be implemented within the Angular application due to limitations regarding API queries."
     }
 }

@@ -7,8 +7,10 @@ import '../../styles/contact-component.scss';
 export default class Contact extends React.Component {
   render () {
     return(
-      <div className="contact__container col-md-12">
-        <SectionHeader header="contact" />
+      <div id="contact" className="contact__container col-md-12">
+        <div className="col-xs-12">
+          <SectionHeader header="contact" />
+        </div>
         <div className="contact__content-container col-xs-12 col-md-6 push-md-4">
           <ContactItem className="fa fa-envelope" text="the.bruton@gmail.com" isLink={false}/>
           <ContactItem className="fa fa-phone" text="615.881.1045" isLink={false}/>
