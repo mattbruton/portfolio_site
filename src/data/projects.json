@@ -1,0 +1,14 @@
+{
+    "woofli": {
+      "name": "Test Project",
+      "hosted_project_url": "www.example.com",
+      "project_repo" : "www.example.com",
+      "description" : "stuff goes here."
+    },
+    "macc": {
+      "name": "Test Project",
+      "hosted_project_url": "www.example.com",
+      "project_repo" : "www.example.com",
+      "description" : "stuff goes here."
+    }
+}
