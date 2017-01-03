@@ -6,7 +6,7 @@ import '../../styles/about-component.scss';
 export default class About extends React.Component {
   render () {
     return(
-      <div className="about__container">
+      <div id="about" className="about__container">
         <SectionHeader header="about" />
         <div className="col-md-8 offset-md-2 about__content-container">
           <p>When I was little, I fell in love with information. I would spend hours reading about dinosaurs, lizards, rocks (yes, I was that kid), and just about any topic the Audubon Society released books on. Except spiders. I was, and still am terrified of those, even in their printed form. You can only imagine my excitement when my mom caved and allowed me to install AOL on our family computer.</p>

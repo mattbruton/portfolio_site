@@ -2,6 +2,7 @@
 
 .contact__container {
   min-height: 80vh;
+  position: inherit;
 
   @media #{$mobile-only} {
     min-height: 50vh;
@@ -11,7 +12,7 @@
 .contact__content-container {
   margin-top: 10vh;
   height: 50vh;
-  
+
   @media #{$mobile-only} {
     margin-top: 2vh;
   }
