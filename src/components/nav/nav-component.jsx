@@ -9,9 +9,9 @@ export default class Navbar extends React.Component {
     return (
       <nav className="col-sm-12 text-xs-center text-md-right navbar-fixed-top navbar__container">
         <ul className="nav nav-inline nav__container--mobile">
-          <NavItem url="#" text="about"/>
-          <NavItem url="#" text="projects"/>
-          <NavItem url="#" text="contact" />
+          <NavItem url="#about" text="about"/>
+          <NavItem url="#projects" text="projects"/>
+          <NavItem url="#contact" text="contact" />
         </ul>
       </nav>
     );

@@ -3,3 +3,12 @@
 .projects__container {
   height: 85vh;
 }
+
+.project__nav__icon {
+  font-size: 4em;
+  padding-top: 25vh;
+  @media #{$mobile-only} {
+    padding-top:60vh;
+    font-size: 2em;
+  }
+}
